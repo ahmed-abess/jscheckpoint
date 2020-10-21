@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>hambrger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="vertical-bar">
+            <div class="search-icons">
+                <i class="fa fa-th-list"></i>
+                <i class="fa fa-search"></i>
+
+
+
+            </div>
+            <div class="social-icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+
+
+            </div>
+
+        </div>
+
+        <div class="nav-bar">
+          <div class="nav-logo">
+                <h1><span>H</span>umm</h1>
+          </div>
+          <div class="nav-links">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Recipe</a></li>
+              </ul>
+              <button class="btn btn-yellow" type="button">SING UP</button>
+          </div>
+
+      </div>
+
+        <div class="banner-title">
+            <h1>Food <span> Dosen't have <br>a religion.</span> It is a religion</h1>
+            <button class="btn btn-yellow"  type="button" >Explore</button>
+
+        </div>
+    </div>
+    <div class="container">
+
+            <div class="row"  id="pizzas" >
+
+            </div>
+        <div class="cart-container">
+            <div class="icon-cart" id="icon-cart" onClick="displayCart(this)">
+                <i class="fa fa-shopping-cart"></i>
+            </div>
+            <div class="cart" id="cart">
+                <div class="cart-head" >
+                      <i class="fa fa-window-close"  onClick="display()"></i>
+                      <h4>My Cart</h4>
+                 </div>
+                <div class="cart-body" id="cart-body">
+
+                </div>
+                    <div class="cart-footer">
+                        <h5>total price:</h5>
+                        <p ><span id="total">0</span>$</p>
+
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js" ></script>
+
+</body>
+</html>
